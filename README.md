@@ -4,13 +4,13 @@ Copyright © 2026 Taha Amine ER-RAFIY. Distribué sous [licence MIT](LICENSE).
 
 ## Aperçu de l’interface
 
-### Français
+### Interface de dessin
 
-![Interface de RESSAM en français](verification/interface-fr.png)
+![Interface de dessin de RESSAM](verification/interface-vide.png)
 
-### English
+### Exemple de dessin : SALAM
 
-![Interface de RESSAM en anglais](verification/interface-en.png)
+![Dessin SALAM réalisé avec RESSAM](verification/dessin-salam.png)
 
 ## Versions Windows et macOS
 
