@@ -1,4 +1,4 @@
-import javax.swing.SwingUtilities;
+import javax.swing.*;
 
 public class Paint {
     public static void main(String[] args) {

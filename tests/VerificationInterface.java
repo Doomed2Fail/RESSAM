@@ -1,14 +1,9 @@
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Graphics2D;
-import java.awt.event.InputEvent;
-import java.awt.event.MouseEvent;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
-import javax.imageio.ImageIO;
-import javax.swing.JToggleButton;
-import javax.swing.SwingUtilities;
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.image.*;
+import java.io.*;
+import javax.imageio.*;
+import javax.swing.*;
 
 public class VerificationInterface {
     private static File dossier;

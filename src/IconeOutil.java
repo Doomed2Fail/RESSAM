@@ -1,10 +1,5 @@
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.RenderingHints;
-import javax.swing.Icon;
+import java.awt.*;
+import javax.swing.*;
 
 public class IconeOutil implements Icon {
     private final int outil;

@@ -1,15 +1,10 @@
-import java.awt.Color;
-import java.awt.Graphics2D;
-import java.awt.event.InputEvent;
-import java.awt.event.MouseEvent;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.Locale;
-import java.util.ResourceBundle;
-import javax.imageio.ImageIO;
-import javax.swing.SwingUtilities;
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.image.*;
+import java.io.*;
+import java.util.*;
+import javax.imageio.*;
+import javax.swing.*;
 
 public class VerificationDessin {
     private static int controles;
