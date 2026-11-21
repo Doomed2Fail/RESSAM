@@ -40,6 +40,13 @@ jobs:
         run: |
           & jpackage --type app-image --input build/input --main-jar Paint.jar --main-class Paint --name RESSAM --dest build/package
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Ajouter la licence Windows
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: Copy-Item LICENSE build/package/RESSAM/LICENSE
+      - name: Ajouter la licence macOS
+        if: runner.os == 'macOS'
+        run: cp LICENSE build/package/RESSAM.app/Contents/Resources/LICENSE
       - name: Compresser Windows
         if: runner.os == 'Windows'
         shell: pwsh

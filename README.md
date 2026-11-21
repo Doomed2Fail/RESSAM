@@ -14,9 +14,9 @@ Copyright © 2026 Taha Amine ER-RAFIY. Distribué sous [licence MIT](LICENSE).
 
 ## Versions Windows et macOS
 
-Les versions téléchargeables seront disponibles dans la section **Releases** du dépôt GitHub après publication. Chaque archive contiendra l’application et son environnement Java. L’application macOS devra être générée sur macOS et la version Windows sur Windows ; la configuration GitHub Actions prévue dans ce projet effectue ces deux compilations lors de la publication d’un tag `v*`.
+Les versions téléchargeables sont disponibles dans la section **Releases** du dépôt GitHub. Chaque archive contient l’application et son environnement Java. La version macOS est construite pour les Mac Apple Silicon (ARM64). La configuration GitHub Actions crée les archives lors de la publication d’un tag `v*`.
 
-Sur macOS, l’application non signée peut nécessiter une autorisation explicite dans les réglages de sécurité. Les versions distribuées n’ont pas encore été produites ni testées sur les deux systèmes.
+Sur macOS, l’application non signée peut nécessiter une autorisation explicite dans les réglages de sécurité. La génération des versions est automatisée ; leur utilisation sur les deux systèmes n’a pas encore été vérifiée manuellement.
 
 Cette version moderne conserve le projet d'origine dans le dossier `ProjetPaint`.
 L'interface utilise Swing et Graphics2D : un ruban horizontal clair regroupe les outils, les options et une palette ronde au-dessus de la feuille. Les icônes sont dessinées en Java. L'apparence s'inspire de Paint ; les boîtes de dialogue restent celles de Swing.
