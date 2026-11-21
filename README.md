@@ -1,5 +1,7 @@
 # RESSAM
 
+**Auteur : Taha Amine ER-RAFIY**
+
 Application de dessin en Java Swing : crayon, gomme, formes, texte, sélection, couleurs, annulation et enregistrement en PNG. Interface en français et en anglais.
 
 ## Aperçus
@@ -19,6 +21,8 @@ Application de dessin en Java Swing : crayon, gomme, formes, texte, sélection, 
 Ces versions comprennent Java. La version macOS est prévue pour les Mac Apple Silicon ; l’application non signée peut nécessiter une autorisation dans les réglages de sécurité macOS.
 
 ### Avec le JAR fourni séparément
+
+Lien du [dossier Google Drive des projets](https://drive.google.com/drive/folders/142oTYlOMR1IxR8I0Bn8eyAaYpJ_ZKA-x?usp=sharing).
 
 Installer Java 8 ou une version ultérieure, puis ouvrir un terminal dans le dossier contenant `RESSAM.jar` et lancer :
 
